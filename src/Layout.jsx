@@ -4,6 +4,7 @@ import Footer from './components/Footer/footer.jsx'
 import { Outlet } from 'react-router-dom'
 
 
+
 function Layout() {
   return (
     <>
