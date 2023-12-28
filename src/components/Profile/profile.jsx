@@ -21,7 +21,7 @@ function profile() {
           <div >Followings: {data.following}</div>
           <div>Repositories: {data.public_repos}</div>
           <div className='p-5 my-3'>
-            <Link to={data.html_url} className="bg-orange-800 p-2 rounded-lg">
+            <Link to={data.html_url} className="bg-orange-800 p-2 text-white rounded-lg">
                 Visit Profile
             </Link>
           </div>
